@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "./components/Layout";
 import Profile from "./components/Profile";
+import RepositoriesList from "./components/RepositoriesList";
 import { ResetCSS } from "./global/resetCSS";
 
 function App() {
@@ -9,8 +10,7 @@ function App() {
       <ResetCSS/>
       <Layout>
        <Profile/>
-        <div>Repositories</div>
-        <div>Starreds</div>
+        <RepositoriesList/>
       </Layout>
     </main>
   );
