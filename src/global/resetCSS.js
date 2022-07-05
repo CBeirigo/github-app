@@ -7,6 +7,7 @@ export const ResetCSS = createGlobalStyle`
   box-sizing: border-box;
   border-style: solid;
   border-width: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* Document */
